@@ -12,17 +12,17 @@ struct ContentView: View {
         TabView {
         DaninView()
         .tabItem {
-        Label("Person 1", systemImage: "person.circle.fill")
+        Label("Danin", systemImage: "person.circle.fill")
         }
 
         NicoleView()
         .tabItem {
-        Label("Person 1", systemImage: "person")
+        Label("Nicole", systemImage: "person")
         }
 
-        Text("This is person 3! Replace me with yet another view.")
+        BananaView()
         .tabItem {
-        Label("Person 1", systemImage: "person.fill.turn.down")
+        Label("Banana", systemImage: "person.fill.turn.down")
         }
         }
         

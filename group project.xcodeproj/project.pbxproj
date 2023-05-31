@@ -15,6 +15,7 @@
 		D9446B792A27153B00153FD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9446B782A27153B00153FD9 /* Preview Assets.xcassets */; };
 		D9446B802A27180700153FD9 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = D9446B7F2A27180700153FD9 /* penguin.png */; };
 		D9446B822A27182000153FD9 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = D9446B812A27182000153FD9 /* penguin.png */; };
+		D9446B842A271DD100153FD9 /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9446B832A271DD100153FD9 /* BananaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D9446B782A27153B00153FD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9446B7F2A27180700153FD9 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penguin.png; path = ../../../penguin.png; sourceTree = "<group>"; };
 		D9446B812A27182000153FD9 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penguin.png; path = ../../penguin.png; sourceTree = "<group>"; };
+		D9446B832A271DD100153FD9 /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				D9446B712A27153900153FD9 /* group_projectApp.swift */,
 				D9446B732A27153900153FD9 /* ContentView.swift */,
+				D9446B832A271DD100153FD9 /* BananaView.swift */,
 				D204C6F22A2716A6004AE682 /* NicoleView.swift */,
 				D204C6F42A2716B1004AE682 /* DaninView.swift */,
 				D9446B812A27182000153FD9 /* penguin.png */,
@@ -155,6 +158,7 @@
 				D204C6F32A2716A6004AE682 /* NicoleView.swift in Sources */,
 				D9446B722A27153900153FD9 /* group_projectApp.swift in Sources */,
 				D204C6F52A2716B1004AE682 /* DaninView.swift in Sources */,
+				D9446B842A271DD100153FD9 /* BananaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
