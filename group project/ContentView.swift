@@ -9,6 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        TabView {
+        DaninView()
+        .tabItem {
+        Label("Person 1", systemImage: "person.circle.fill")
+        }
+
+        NicoleView()
+        .tabItem {
+        Label("Person 1", systemImage: "person")
+        }
+
+        Text("This is person 3! Replace me with yet another view.")
+        .tabItem {
+        Label("Person 1", systemImage: "person.fill.turn.down")
+        }
+        }
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
