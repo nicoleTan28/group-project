@@ -11,7 +11,7 @@ struct NicoleView: View {
     var body: some View {
         ZStack {
             Color(.systemTeal)
-                
+            LinearGradient(colors: [.mint, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
             VStack {
                 Text("Hello!")
                     .font(.largeTitle)
