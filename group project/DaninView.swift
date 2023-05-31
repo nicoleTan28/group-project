@@ -6,10 +6,37 @@
 //
 
 import SwiftUI
+import Foundation
+
+
 
 struct DaninView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+
+
+            VStack{
+                Image("happy")
+
+                    .resizable()
+                    .scaledToFit()
+                Text("**Danin**")
+                    .font(.largeTitle)
+                Text("is a dog person")
+                    .font(.title)
+                Text("_This is not my cat_")
+                    .padding()
+                    .foregroundColor(.gray)
+                
+                Link(destination: URL(string:"https://tk.sg/swift2023wiki")!){
+                    Text("🍪")
+                        .font(.title)}
+            }
+            .padding()
+
+        
+      
     }
 }
 
